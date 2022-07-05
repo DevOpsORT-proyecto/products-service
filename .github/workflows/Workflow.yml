@@ -1,0 +1,12 @@
+name: Java to GCP Workflow
+
+on:
+  push:
+
+jobs:
+  Java-Workflow:
+    uses: DevOpsORT-proyecto/obligatorioDevOps-infra/.github/workflows/Java-Workflow.yml@main
+    with:
+      service-name: Products
+      sonar-project-key: DevOpsORT-proyecto_products-service
+    secrets: inherit
