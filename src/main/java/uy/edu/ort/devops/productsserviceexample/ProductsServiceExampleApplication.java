@@ -6,9 +6,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class ProductsServiceExampleApplication {
 
-	// Test comment
-
 	public static void main(String[] args) {
+
+		System.out.println("Products Url: " + args[0]);
+
 		SpringApplication.run(ProductsServiceExampleApplication.class, args);
 	}
 
