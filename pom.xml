@@ -42,7 +42,7 @@
 			</plugins>
 			</build>
 		</profile>
-	</profile>
+	</profiles>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>products-service-example</name>
 	<description>Demo project for migrating Monolith to Microservices</description>
